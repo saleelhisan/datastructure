@@ -21,13 +21,11 @@ function quickSort(arr, left = 0, right = arr.length - 1) {
   }
   
   function swap(arr, i, j) {
-    console.log(arr);
     const temp = arr[i]
     arr[i] = arr[j]
     arr[j] = temp
   }
   
   const arr = [24,9,29,14,19,27]
-  quickSort(arr)
-  // console.log(arr) 
+  console.log(quickSort(arr)) 
   
