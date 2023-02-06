@@ -25,7 +25,6 @@ function quickSort(arr, left = 0, right = arr.length - 1) {
     arr[i] = arr[j]
     arr[j] = temp
   }
-  
-  const arr = [24,9,29,14,19,27]
+  const arr = [5,2,8,4,9,1]
   console.log(quickSort(arr)) 
   
